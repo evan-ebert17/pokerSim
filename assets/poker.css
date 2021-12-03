@@ -1,0 +1,55 @@
+:root {
+    --tablecolor: #248560;
+    --bgcolor: #fce8be;
+    --pokerFont: 'Oswald', sans-serif;
+}
+
+* {
+    font-family: var(--pokerFont);
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.containerWhole {
+    display: flex;
+    border-radius: 10px;
+}
+
+.tableP {
+    background-color: var(--tablecolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    border-radius: 120px;
+}
+
+.innerRingDiv {
+    display: flex;
+}
+
+.innerRing {
+    border: 10px solid yellow;
+    border-radius: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+.riverCard {
+    border: 10px solid black;
+}

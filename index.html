@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/poker.css">
     <title>pokerSim</title>
 </head>
+
 <body>
-    <header></header>
+    <header>Poker Simulator</header>
     <div class="containerWhole">
-        <div class="table">
-            <div class="innerRing">
-                <div class="river">
-                    <!-- li for each card when appended -->
+        <div class="tableP">
+            <div class="innerRingDiv">
+                <div class="innerRing">
+                    <div class="river">
+                        <!-- li for each card when appended -->
+                        <li class="riverCard"></li>
+                        <li class="riverCard"></li>
+                        <li class="riverCard"></li>
+                        <li class="riverCard"></li>
+                        <li class="riverCard"></li>
+                    </div>
                 </div>
             </div>
             <div class="playerContainer">
                 <div class="player">
                     <div class="optionContainer">
-                        <button class="pkrBtn">Call</button>
+                        <!-- <button class="pkrBtn">Call</button>
                         <button class="pkrBtn">Fold</button>
-                        <button class="pkrBtn">Raise</button>
+                        <button class="pkrBtn">Raise</button> -->
                     </div>
                     <div class="moneyAmnt"></div>
                     <div class="card"></div>
@@ -32,5 +45,7 @@
             </div>
         </div>
     </div>
+    <script src="assets/poker.js"></script>
 </body>
+
 </html>
