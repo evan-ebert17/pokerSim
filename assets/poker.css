@@ -31,6 +31,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     width: 100vw;
     height: 90vh;
     border-radius: 120px;
@@ -50,6 +51,45 @@ header {
     height: 50vh;
 }
 
+.river {
+    display: flex;
+}
+
 .riverCard {
-    border: 10px solid black;
+    border: 3px solid black;
+    width: 40px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.card {
+    display: flex;
+}
+
+/* .playerContainer {
+    border: 3px solid black;
+} */
+
+#p1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#p2 {
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+
+#p3 {
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+
+#p4 {
+   position: absolute;
+   top: 800px;
+   left: 1200px; 
 }
